@@ -46,3 +46,9 @@ Technologies used in the project:
 *   Gemini Pro
 *   Streamlit
 *   HuggingFace
+
+![Image](https://github.com/user-attachments/assets/08c670d2-e609-419b-a99f-088c6005c60f)
+
+![Image](https://github.com/user-attachments/assets/8b144131-bc3b-4b5c-a741-b1b6e93dc5b2)
+
+![Image](https://github.com/user-attachments/assets/6e5884c8-312f-4ec5-8ed8-62296be5c153)
