@@ -5,7 +5,8 @@
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. 📌 Step 1: Set Up Your Python Environment
-  1️⃣ Create a virtual environment (Optional but recommended) Open VS Code Terminal or Command Prompt and run:</p>
+  ```
+   Create a virtual environment (Optional but recommended) Open VS Code Terminal or Command Prompt and run:</p>
 
 ```
 python -m venv venv
