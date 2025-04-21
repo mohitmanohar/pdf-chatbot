@@ -11,11 +11,12 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 
 #  Load API Key
-load_dotenv()
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", st.secrets.get("GOOGLE_API_KEY"))
 if not GOOGLE_API_KEY:
-    st.error("⚠️ GOOGLE_API_KEY is missing! Set it in your .env file.")
+    st.error("⚠️ GOOGLE_API_KEY is missing! Add it in .env (local) or Streamlit secrets (Cloud).")
     st.stop()
+
+genai.configure(api_key=GOOGLE_API_KEY))
     
 genai.configure(api_key=GOOGLE_API_KEY)
 
